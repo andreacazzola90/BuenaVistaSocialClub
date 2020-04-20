@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "npm-run-all -p develop:npm:*",
-    "develop:npm:backend": "cd Back-End && yarn run develop",
+    "develop:npm:backend": "cd Back-End && npm run develop",
     "develop:npm:frontend": "cd Front-End && npm run serve"
   },
   "author": "",
